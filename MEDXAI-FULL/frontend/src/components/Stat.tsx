@@ -1,0 +1,1 @@
+import {motion} from 'framer-motion';import type {ReactNode} from 'react';export default function Stat({label,value,icon}:{label:string;value:ReactNode;icon:ReactNode}){return <motion.div whileHover={{y:-5}} className="stat glass"><div className="stat-icon">{icon}</div><div><span>{label}</span><strong>{value}</strong></div></motion.div>}
