@@ -3,7 +3,7 @@
 ### Explainable MRI Intelligence for AI-Assisted Medical Image Analysis
 
 <p align="center">
-  <img src="./MEDXAI-FULL/medxai-home.png" alt="MedXAI Medical AI Platform" width="100%">
+  <img src="https://raw.githubusercontent.com/milangohil24-oss/MEDXAI_FULL/main/MEDXAI-FULL/medxai-home.png" alt="MedXAI Medical AI Platform" width="100%">
 </p>
 
 <p align="center">
@@ -15,14 +15,12 @@
 ## 🚀 Live Demo
 
 <p align="center">
-
-<a href="https://medxai-frontend.onrender.com">
-  <b>🌐 Open MedXAI Live →</b>
-</a>
-
+  <a href="https://medxai-frontend.onrender.com">
+    <b>🌐 Open MedXAI Live →</b>
+  </a>
 </p>
 
-MedXAI is deployed and available as a web-based application for interacting with the AI-powered MRI analysis system.
+MedXAI is deployed as a web-based application for interacting with an AI-powered MRI image analysis system.
 
 ---
 
@@ -84,9 +82,9 @@ The project demonstrates how an AI model can be integrated into a complete web a
 
 **Grad-CAM** is used to make the deep learning prediction more interpretable.
 
-It generates a heatmap that highlights image regions that contributed to the model's prediction. This allows users to visually understand which areas of the MRI image were important to the model.
+It generates a heatmap that highlights image regions that contributed to the model's prediction. This provides a visual representation of the areas that were important to the model during classification.
 
-The project therefore combines:
+MedXAI therefore combines:
 
 - **Deep Learning** for image classification
 - **Transfer Learning** for model development
@@ -102,9 +100,9 @@ The project therefore combines:
 - React.js
 - Vite
 - JavaScript / TypeScript
-- REST API Integration
 - HTML5
 - CSS3
+- REST API Integration
 
 ### ⚙️ Backend
 
@@ -112,7 +110,7 @@ The project therefore combines:
 - FastAPI
 - REST APIs
 - Authentication
-- SQLite / Database Integration
+- Database Integration
 
 ### 🤖 AI / Machine Learning
 
@@ -125,8 +123,8 @@ The project therefore combines:
 
 ### ☁️ Deployment
 
-- Render
 - GitHub
+- Render
 
 ---
 
@@ -186,11 +184,11 @@ The **EfficientNetB0** model analyzes the image and generates a classification p
 
 ### 5. Generate Explanation
 
-**Grad-CAM** is applied to generate a visual heatmap showing the regions that contributed to the model's prediction.
+**Grad-CAM** generates a visual heatmap showing the regions that contributed to the model's prediction.
 
 ### 6. Display Results
 
-The prediction and explainability output are returned to the frontend and displayed to the user.
+The prediction and explanation are returned to the frontend and displayed to the user.
 
 ---
 
@@ -198,7 +196,7 @@ The prediction and explainability output are returned to the frontend and displa
 
 ```text
 ┌─────────────────────┐
-│       User          │
+│        User         │
 └──────────┬──────────┘
            │
            ▼
@@ -243,8 +241,6 @@ cd MEDXAI_FULL/MEDXAI-FULL
 
 ### 2️⃣ Backend Setup
 
-Open a terminal and run:
-
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -262,8 +258,6 @@ npm install
 npm run dev
 ```
 
-The frontend will then be available through the local development server provided by Vite.
-
 ---
 
 ## 🔐 Environment Variables
@@ -280,7 +274,7 @@ Add:
 VITE_API_BASE_URL=http://127.0.0.1:8000
 ```
 
-An example configuration is already provided in:
+An example configuration is provided in:
 
 ```text
 frontend/.env.example
@@ -304,7 +298,7 @@ The deployed application provides the MedXAI interface for interacting with the 
 
 - Apply deep learning to MRI image classification.
 - Implement Transfer Learning using EfficientNetB0.
-- Integrate Explainable AI using Grad-CAM.
+- Implement Explainable AI using Grad-CAM.
 - Build a complete AI-powered web application.
 - Connect a machine learning model with a web interface.
 - Implement frontend-backend communication using REST APIs.
